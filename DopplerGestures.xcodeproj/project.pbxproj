@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09036A5D24453118002E4D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A5C24453118002E4D3D /* AppDelegate.swift */; };
+		09036A5F24453118002E4D3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A5E24453118002E4D3D /* SceneDelegate.swift */; };
+		09036A6124453118002E4D3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A6024453118002E4D3D /* ContentView.swift */; };
+		09036A632445311D002E4D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09036A622445311D002E4D3D /* Assets.xcassets */; };
+		09036A662445311D002E4D3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09036A652445311D002E4D3D /* Preview Assets.xcassets */; };
+		09036A692445311D002E4D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09036A672445311D002E4D3D /* LaunchScreen.storyboard */; };
+		09036A742445311D002E4D3D /* DopplerGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A732445311D002E4D3D /* DopplerGesturesTests.swift */; };
+		09036A7F2445311D002E4D3D /* DopplerGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09036A702445311D002E4D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09036A5124453118002E4D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09036A5824453118002E4D3D;
+			remoteInfo = DopplerGestures;
+		};
+		09036A7B2445311D002E4D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09036A5124453118002E4D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09036A5824453118002E4D3D;
+			remoteInfo = DopplerGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09036A5924453118002E4D3D /* DopplerGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DopplerGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09036A5C24453118002E4D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09036A5E24453118002E4D3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09036A6024453118002E4D3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09036A622445311D002E4D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09036A652445311D002E4D3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09036A682445311D002E4D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09036A6A2445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09036A6F2445311D002E4D3D /* DopplerGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopplerGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09036A732445311D002E4D3D /* DopplerGesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopplerGesturesTests.swift; sourceTree = "<group>"; };
+		09036A752445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09036A7A2445311D002E4D3D /* DopplerGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopplerGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopplerGesturesUITests.swift; sourceTree = "<group>"; };
+		09036A802445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09036A5624453118002E4D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A6C2445311D002E4D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A772445311D002E4D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09036A5024453118002E4D3D = {
+			isa = PBXGroup;
+			children = (
+				09036A5B24453118002E4D3D /* DopplerGestures */,
+				09036A722445311D002E4D3D /* DopplerGesturesTests */,
+				09036A7D2445311D002E4D3D /* DopplerGesturesUITests */,
+				09036A5A24453118002E4D3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09036A5A24453118002E4D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09036A5924453118002E4D3D /* DopplerGestures.app */,
+				09036A6F2445311D002E4D3D /* DopplerGesturesTests.xctest */,
+				09036A7A2445311D002E4D3D /* DopplerGesturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09036A5B24453118002E4D3D /* DopplerGestures */ = {
+			isa = PBXGroup;
+			children = (
+				09036A5C24453118002E4D3D /* AppDelegate.swift */,
+				09036A5E24453118002E4D3D /* SceneDelegate.swift */,
+				09036A6024453118002E4D3D /* ContentView.swift */,
+				09036A622445311D002E4D3D /* Assets.xcassets */,
+				09036A672445311D002E4D3D /* LaunchScreen.storyboard */,
+				09036A6A2445311D002E4D3D /* Info.plist */,
+				09036A642445311D002E4D3D /* Preview Content */,
+			);
+			path = DopplerGestures;
+			sourceTree = "<group>";
+		};
+		09036A642445311D002E4D3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09036A652445311D002E4D3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09036A722445311D002E4D3D /* DopplerGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				09036A732445311D002E4D3D /* DopplerGesturesTests.swift */,
+				09036A752445311D002E4D3D /* Info.plist */,
+			);
+			path = DopplerGesturesTests;
+			sourceTree = "<group>";
+		};
+		09036A7D2445311D002E4D3D /* DopplerGesturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */,
+				09036A802445311D002E4D3D /* Info.plist */,
+			);
+			path = DopplerGesturesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09036A5824453118002E4D3D /* DopplerGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09036A832445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGestures" */;
+			buildPhases = (
+				09036A5524453118002E4D3D /* Sources */,
+				09036A5624453118002E4D3D /* Frameworks */,
+				09036A5724453118002E4D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DopplerGestures;
+			productName = DopplerGestures;
+			productReference = 09036A5924453118002E4D3D /* DopplerGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09036A6E2445311D002E4D3D /* DopplerGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09036A862445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesTests" */;
+			buildPhases = (
+				09036A6B2445311D002E4D3D /* Sources */,
+				09036A6C2445311D002E4D3D /* Frameworks */,
+				09036A6D2445311D002E4D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09036A712445311D002E4D3D /* PBXTargetDependency */,
+			);
+			name = DopplerGesturesTests;
+			productName = DopplerGesturesTests;
+			productReference = 09036A6F2445311D002E4D3D /* DopplerGesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09036A792445311D002E4D3D /* DopplerGesturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09036A892445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesUITests" */;
+			buildPhases = (
+				09036A762445311D002E4D3D /* Sources */,
+				09036A772445311D002E4D3D /* Frameworks */,
+				09036A782445311D002E4D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09036A7C2445311D002E4D3D /* PBXTargetDependency */,
+			);
+			name = DopplerGesturesUITests;
+			productName = DopplerGesturesUITests;
+			productReference = 09036A7A2445311D002E4D3D /* DopplerGesturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09036A5124453118002E4D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Maruchi Kim";
+				TargetAttributes = {
+					09036A5824453118002E4D3D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					09036A6E2445311D002E4D3D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 09036A5824453118002E4D3D;
+					};
+					09036A792445311D002E4D3D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 09036A5824453118002E4D3D;
+					};
+				};
+			};
+			buildConfigurationList = 09036A5424453118002E4D3D /* Build configuration list for PBXProject "DopplerGestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09036A5024453118002E4D3D;
+			productRefGroup = 09036A5A24453118002E4D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09036A5824453118002E4D3D /* DopplerGestures */,
+				09036A6E2445311D002E4D3D /* DopplerGesturesTests */,
+				09036A792445311D002E4D3D /* DopplerGesturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09036A5724453118002E4D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09036A692445311D002E4D3D /* LaunchScreen.storyboard in Resources */,
+				09036A662445311D002E4D3D /* Preview Assets.xcassets in Resources */,
+				09036A632445311D002E4D3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A6D2445311D002E4D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A782445311D002E4D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09036A5524453118002E4D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09036A5D24453118002E4D3D /* AppDelegate.swift in Sources */,
+				09036A5F24453118002E4D3D /* SceneDelegate.swift in Sources */,
+				09036A6124453118002E4D3D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A6B2445311D002E4D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09036A742445311D002E4D3D /* DopplerGesturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09036A762445311D002E4D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09036A7F2445311D002E4D3D /* DopplerGesturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09036A712445311D002E4D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09036A5824453118002E4D3D /* DopplerGestures */;
+			targetProxy = 09036A702445311D002E4D3D /* PBXContainerItemProxy */;
+		};
+		09036A7C2445311D002E4D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09036A5824453118002E4D3D /* DopplerGestures */;
+			targetProxy = 09036A7B2445311D002E4D3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09036A672445311D002E4D3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09036A682445311D002E4D3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09036A812445311D002E4D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09036A822445311D002E4D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09036A842445311D002E4D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DopplerGestures/Preview Content\"";
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DopplerGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09036A852445311D002E4D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DopplerGestures/Preview Content\"";
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DopplerGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09036A872445311D002E4D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				INFOPLIST_FILE = DopplerGesturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopplerGestures.app/DopplerGestures";
+			};
+			name = Debug;
+		};
+		09036A882445311D002E4D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				INFOPLIST_FILE = DopplerGesturesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGesturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DopplerGestures.app/DopplerGestures";
+			};
+			name = Release;
+		};
+		09036A8A2445311D002E4D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				INFOPLIST_FILE = DopplerGesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DopplerGestures;
+			};
+			name = Debug;
+		};
+		09036A8B2445311D002E4D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69EHXYN33;
+				INFOPLIST_FILE = DopplerGesturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGesturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DopplerGestures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09036A5424453118002E4D3D /* Build configuration list for PBXProject "DopplerGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09036A812445311D002E4D3D /* Debug */,
+				09036A822445311D002E4D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09036A832445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09036A842445311D002E4D3D /* Debug */,
+				09036A852445311D002E4D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09036A862445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09036A872445311D002E4D3D /* Debug */,
+				09036A882445311D002E4D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09036A892445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09036A8A2445311D002E4D3D /* Debug */,
+				09036A8B2445311D002E4D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09036A5124453118002E4D3D /* Project object */;
+}
