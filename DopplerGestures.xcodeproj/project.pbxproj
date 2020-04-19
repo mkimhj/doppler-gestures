@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		09036A5D24453118002E4D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A5C24453118002E4D3D /* AppDelegate.swift */; };
-		09036A5F24453118002E4D3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A5E24453118002E4D3D /* SceneDelegate.swift */; };
-		09036A6124453118002E4D3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A6024453118002E4D3D /* ContentView.swift */; };
 		09036A632445311D002E4D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09036A622445311D002E4D3D /* Assets.xcassets */; };
 		09036A662445311D002E4D3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09036A652445311D002E4D3D /* Preview Assets.xcassets */; };
-		09036A692445311D002E4D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09036A672445311D002E4D3D /* LaunchScreen.storyboard */; };
 		09036A742445311D002E4D3D /* DopplerGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A732445311D002E4D3D /* DopplerGesturesTests.swift */; };
 		09036A7F2445311D002E4D3D /* DopplerGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */; };
+		09CEEAE92446352E00566FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEEAE82446352E00566FF4 /* ViewController.swift */; };
+		09CEEAED2446359B00566FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CEEAEC2446359B00566FF4 /* Main.storyboard */; };
+		09DABC9E2446748A0022BB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABC9D2446748A0022BB14 /* SceneDelegate.swift */; };
+		6A71531706291E02F01E582E /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */; };
+		C501C94F29DD61A67416FAF8 /* Pods_DopplerGestures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */; };
+		E88EE0B28DD34FEBB83B4977 /* Pods_DopplerGesturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,8 @@
 /* Begin PBXFileReference section */
 		09036A5924453118002E4D3D /* DopplerGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DopplerGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09036A5C24453118002E4D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09036A5E24453118002E4D3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09036A6024453118002E4D3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09036A622445311D002E4D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09036A652445311D002E4D3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		09036A682445311D002E4D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09036A6A2445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09036A6F2445311D002E4D3D /* DopplerGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopplerGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09036A732445311D002E4D3D /* DopplerGesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopplerGesturesTests.swift; sourceTree = "<group>"; };
@@ -49,6 +49,18 @@
 		09036A7A2445311D002E4D3D /* DopplerGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopplerGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopplerGesturesUITests.swift; sourceTree = "<group>"; };
 		09036A802445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CEEAE82446352E00566FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09CEEAEC2446359B00566FF4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		09DABC9D2446748A0022BB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		157F393301B55884FEC34405 /* Pods-DopplerGesturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGesturesTests.release.xcconfig"; path = "Target Support Files/Pods-DopplerGesturesTests/Pods-DopplerGesturesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E905531F76FCC0FCF3E2E2E /* Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig"; path = "Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3229D7A847E6AE54C5188CB6 /* Pods-DopplerGestures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures.release.xcconfig"; path = "Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures.release.xcconfig"; sourceTree = "<group>"; };
+		7113B89A7E49AF89C7BA52EB /* Pods-DopplerGestures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGestures_DopplerGesturesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGesturesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E468CD6101E927B92734FB /* Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGestures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EE6EFC7389ED9B4D0AABFB /* Pods-DopplerGesturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGesturesTests.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGesturesTests/Pods-DopplerGesturesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C501C94F29DD61A67416FAF8 /* Pods_DopplerGestures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88EE0B28DD34FEBB83B4977 /* Pods_DopplerGesturesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A71531706291E02F01E582E /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				09036A722445311D002E4D3D /* DopplerGesturesTests */,
 				09036A7D2445311D002E4D3D /* DopplerGesturesUITests */,
 				09036A5A24453118002E4D3D /* Products */,
+				11BDC138986315415C91D0C8 /* Pods */,
+				78AB47066DAF74185731A82B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +116,11 @@
 		09036A5B24453118002E4D3D /* DopplerGestures */ = {
 			isa = PBXGroup;
 			children = (
+				09CEEAE82446352E00566FF4 /* ViewController.swift */,
 				09036A5C24453118002E4D3D /* AppDelegate.swift */,
-				09036A5E24453118002E4D3D /* SceneDelegate.swift */,
-				09036A6024453118002E4D3D /* ContentView.swift */,
+				09DABC9D2446748A0022BB14 /* SceneDelegate.swift */,
 				09036A622445311D002E4D3D /* Assets.xcassets */,
-				09036A672445311D002E4D3D /* LaunchScreen.storyboard */,
+				09CEEAEC2446359B00566FF4 /* Main.storyboard */,
 				09036A6A2445311D002E4D3D /* Info.plist */,
 				09036A642445311D002E4D3D /* Preview Content */,
 			);
@@ -136,6 +153,29 @@
 			path = DopplerGesturesUITests;
 			sourceTree = "<group>";
 		};
+		11BDC138986315415C91D0C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7113B89A7E49AF89C7BA52EB /* Pods-DopplerGestures.debug.xcconfig */,
+				3229D7A847E6AE54C5188CB6 /* Pods-DopplerGestures.release.xcconfig */,
+				B8E468CD6101E927B92734FB /* Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig */,
+				1E905531F76FCC0FCF3E2E2E /* Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig */,
+				D7EE6EFC7389ED9B4D0AABFB /* Pods-DopplerGesturesTests.debug.xcconfig */,
+				157F393301B55884FEC34405 /* Pods-DopplerGesturesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78AB47066DAF74185731A82B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */,
+				7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */,
+				8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09036A832445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGestures" */;
 			buildPhases = (
+				558DCBD2EC21E60FA0EAE0EA /* [CP] Check Pods Manifest.lock */,
 				09036A5524453118002E4D3D /* Sources */,
 				09036A5624453118002E4D3D /* Frameworks */,
 				09036A5724453118002E4D3D /* Resources */,
@@ -160,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09036A862445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesTests" */;
 			buildPhases = (
+				5B5399CEF4E8F942A71C42F2 /* [CP] Check Pods Manifest.lock */,
 				09036A6B2445311D002E4D3D /* Sources */,
 				09036A6C2445311D002E4D3D /* Frameworks */,
 				09036A6D2445311D002E4D3D /* Resources */,
@@ -178,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09036A892445311D002E4D3D /* Build configuration list for PBXNativeTarget "DopplerGesturesUITests" */;
 			buildPhases = (
+				618E6359336C19A85DC78856 /* [CP] Check Pods Manifest.lock */,
 				09036A762445311D002E4D3D /* Sources */,
 				09036A772445311D002E4D3D /* Frameworks */,
 				09036A782445311D002E4D3D /* Resources */,
@@ -240,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09036A692445311D002E4D3D /* LaunchScreen.storyboard in Resources */,
 				09036A662445311D002E4D3D /* Preview Assets.xcassets in Resources */,
 				09036A632445311D002E4D3D /* Assets.xcassets in Resources */,
+				09CEEAED2446359B00566FF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +305,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		558DCBD2EC21E60FA0EAE0EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DopplerGestures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5399CEF4E8F942A71C42F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DopplerGesturesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618E6359336C19A85DC78856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DopplerGestures-DopplerGesturesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09036A5524453118002E4D3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09036A5D24453118002E4D3D /* AppDelegate.swift in Sources */,
-				09036A5F24453118002E4D3D /* SceneDelegate.swift in Sources */,
-				09036A6124453118002E4D3D /* ContentView.swift in Sources */,
+				09CEEAE92446352E00566FF4 /* ViewController.swift in Sources */,
+				09DABC9E2446748A0022BB14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +415,6 @@
 			targetProxy = 09036A7B2445311D002E4D3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		09036A672445311D002E4D3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09036A682445311D002E4D3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		09036A812445311D002E4D3D /* Debug */ = {
@@ -366,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +533,7 @@
 		};
 		09036A842445311D002E4D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7113B89A7E49AF89C7BA52EB /* Pods-DopplerGestures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,9 +541,22 @@
 				DEVELOPMENT_TEAM = S69EHXYN33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DopplerGestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioKit\"",
+					"-framework",
+					"\"AudioKitUI\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGestures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +567,7 @@
 		};
 		09036A852445311D002E4D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3229D7A847E6AE54C5188CB6 /* Pods-DopplerGestures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,9 +575,22 @@
 				DEVELOPMENT_TEAM = S69EHXYN33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DopplerGestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioKit\"",
+					"-framework",
+					"\"AudioKitUI\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mkimhj.DopplerGestures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,6 +601,7 @@
 		};
 		09036A872445311D002E4D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EE6EFC7389ED9B4D0AABFB /* Pods-DopplerGesturesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +624,7 @@
 		};
 		09036A882445311D002E4D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157F393301B55884FEC34405 /* Pods-DopplerGesturesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +647,7 @@
 		};
 		09036A8A2445311D002E4D3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E468CD6101E927B92734FB /* Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +668,7 @@
 		};
 		09036A8B2445311D002E4D3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E905531F76FCC0FCF3E2E2E /* Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
