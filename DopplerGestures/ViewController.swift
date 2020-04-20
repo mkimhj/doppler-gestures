@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     var gestureString  = String()
     var runLoopTimeMs = 0.0
     var gestureDetectedTimeMs = 0.0
+    var lastAmplitudeArray = [Double]()
+    var gestureCounter = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,35 +84,52 @@ class ViewController: UIViewController {
             logAmplitudeArray.append(logAmplitude)
         }
         
-//        for i in stride(from:206, to:212, by:1) {
-//            NSLog("%d %f", i, logAmplitudeArray[i] - logAmplitudeArray[i+1])
-//        }
-//        NSLog("\n")
-        
-        if (runLoopTimeMs - gestureDetectedTimeMs > 0.05) {
-            if ((logAmplitudeArray[207] - logAmplitudeArray[208]) > 1.5) {
-                gestureString = "PULL"
-                gestureDetectedTimeMs = runLoopTimeMs
-            } else if ((logAmplitudeArray[210] - logAmplitudeArray[211]) < -1.5) {
-                gestureString = "PUSH"
-                gestureDetectedTimeMs = runLoopTimeMs
+//        if (runLoopTimeMs - gestureDetectedTimeMs > 0.01) {
+            
+//            PULL
+        if (((logAmplitudeArray[207] - logAmplitudeArray[208]) > 4) && (((logAmplitudeArray[210] - logAmplitudeArray[211]) > 1))) { // PULL
+            if (gestureString == "PUSH") {
+                gestureCounter = 0
             }
+            gestureString = "PULL"
+            gestureDetectedTimeMs = runLoopTimeMs
+            gestureCounter+=1
+            NSLog("PULL")
+            NSLog("PULL %f %f", logAmplitudeArray[207], logAmplitudeArray[207] - logAmplitudeArray[208])
+            NSLog("PUSH %f %f", logAmplitudeArray[210], logAmplitudeArray[210] - logAmplitudeArray[211])
+            NSLog("\n")
+        }
+        
+//            PUSH
+        else if (((logAmplitudeArray[210] - logAmplitudeArray[211]) < -15)) { // PUSH
+            if (gestureString == "PULL") {
+                gestureCounter = 0
+            }
+            gestureString = "PUSH"
+            gestureDetectedTimeMs = runLoopTimeMs
+            gestureCounter+=1
+            NSLog("PUSH")
+            NSLog("PULL %f %f", logAmplitudeArray[207], logAmplitudeArray[207] - logAmplitudeArray[208])
+            NSLog("PUSH %f %f", logAmplitudeArray[210], logAmplitudeArray[210] - logAmplitudeArray[211])
+            NSLog("\n")
+        }
+//        }
+        
+        else {
+            gestureCounter = 0
+                
         }
         
         setFrequencyPlotValues(256, frequencies:logAmplitudeArray)
         
-        
-        let boldAttribute = [NSAttributedString.Key.font: UIFont(name: "HelveticaNeue-Bold", size: 36.0)!]
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.alignment = NSTextAlignment.center
-        let attributes = [
-            NSAttributedString.Key.font: UIFont(name: "HelveticaNeue-Bold", size: 36.0),
-            NSAttributedString.Key.paragraphStyle: paragraphStyle
-        ]
-        
-        let boldText = NSAttributedString(string: gestureString, attributes: boldAttribute)
-        frequencyLabel.attributedText = boldText
-        frequencyLabel.textAlignment = NSTextAlignment.center
+        if (gestureCounter >= 2) {
+            let boldAttribute = [NSAttributedString.Key.font: UIFont(name: "HelveticaNeue-Bold", size: 36.0)!]
+            let boldText = NSAttributedString(string: gestureString, attributes: boldAttribute)
+            frequencyLabel.attributedText = boldText
+            frequencyLabel.textAlignment = NSTextAlignment.center
+            
+            lastAmplitudeArray = logAmplitudeArray
+        }
     }
     
     func setFrequencyPlotValues(_ count: Int = 256, frequencies:[Double]) {
