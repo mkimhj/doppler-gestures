@@ -83,9 +83,7 @@ class ViewController: UIViewController {
             let logAmplitude = (20.0 * log10(binMagnitude))
             logAmplitudeArray.append(logAmplitude)
         }
-        
-//        if (runLoopTimeMs - gestureDetectedTimeMs > 0.01) {
-            
+                    
 //            PULL
         if (((logAmplitudeArray[207] - logAmplitudeArray[208]) > 4) && (((logAmplitudeArray[210] - logAmplitudeArray[211]) > 1))) { // PULL
             if (gestureString == "PUSH") {
@@ -101,19 +99,19 @@ class ViewController: UIViewController {
         }
         
 //            PUSH
-        else if (((logAmplitudeArray[210] - logAmplitudeArray[211]) < -15)) { // PUSH
+        else if (((logAmplitudeArray[210] - logAmplitudeArray[209]) > -45)) { // PUSH
             if (gestureString == "PULL") {
                 gestureCounter = 0
             }
+            
             gestureString = "PUSH"
             gestureDetectedTimeMs = runLoopTimeMs
             gestureCounter+=1
             NSLog("PUSH")
             NSLog("PULL %f %f", logAmplitudeArray[207], logAmplitudeArray[207] - logAmplitudeArray[208])
-            NSLog("PUSH %f %f", logAmplitudeArray[210], logAmplitudeArray[210] - logAmplitudeArray[211])
+            NSLog("PUSH %f %f", logAmplitudeArray[210], logAmplitudeArray[210] - logAmplitudeArray[209])
             NSLog("\n")
         }
-//        }
         
         else {
             gestureCounter = 0
@@ -143,10 +141,6 @@ class ViewController: UIViewController {
         set1.lineWidth = 2
         let data = LineChartData(dataSet: set1)
         data.setDrawValues(false)
-        
-
-
-        
         
         self.frequencyPlotView.data = data
         
