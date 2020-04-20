@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,9 @@
 		09CEEAE92446352E00566FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CEEAE82446352E00566FF4 /* ViewController.swift */; };
 		09CEEAED2446359B00566FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CEEAEC2446359B00566FF4 /* Main.storyboard */; };
 		09DABC9E2446748A0022BB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DABC9D2446748A0022BB14 /* SceneDelegate.swift */; };
-		6A71531706291E02F01E582E /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */; };
-		C501C94F29DD61A67416FAF8 /* Pods_DopplerGestures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */; };
-		E88EE0B28DD34FEBB83B4977 /* Pods_DopplerGesturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */; };
+		3172855E047D427074C5A2E7 /* Pods_DopplerGestures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */; };
+		8AE37AFDA7C7BEC29D2E5BE9 /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F11A3D0E0C9079F3A1B4D4A /* Pods_DopplerGestures_DopplerGesturesUITests.framework */; };
+		AE00DE9B12E8C9BB690224B3 /* Pods_DopplerGesturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50104196153E40A101623F4B /* Pods_DopplerGesturesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,17 @@
 		09036A7A2445311D002E4D3D /* DopplerGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DopplerGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09036A7E2445311D002E4D3D /* DopplerGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopplerGesturesUITests.swift; sourceTree = "<group>"; };
 		09036A802445311D002E4D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0996DDCD244D1DB900BC85C9 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0996DDD4244D1EBF00BC85C9 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CEEAE82446352E00566FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09CEEAEC2446359B00566FF4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		09DABC9D2446748A0022BB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		157F393301B55884FEC34405 /* Pods-DopplerGesturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGesturesTests.release.xcconfig"; path = "Target Support Files/Pods-DopplerGesturesTests/Pods-DopplerGesturesTests.release.xcconfig"; sourceTree = "<group>"; };
 		1E905531F76FCC0FCF3E2E2E /* Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig"; path = "Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3229D7A847E6AE54C5188CB6 /* Pods-DopplerGestures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures.release.xcconfig"; path = "Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures.release.xcconfig"; sourceTree = "<group>"; };
+		50104196153E40A101623F4B /* Pods_DopplerGesturesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGesturesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7113B89A7E49AF89C7BA52EB /* Pods-DopplerGestures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures.debug.xcconfig"; sourceTree = "<group>"; };
-		7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGestures_DopplerGesturesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGesturesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F11A3D0E0C9079F3A1B4D4A /* Pods_DopplerGestures_DopplerGesturesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGestures_DopplerGesturesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E468CD6101E927B92734FB /* Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DopplerGestures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7EE6EFC7389ED9B4D0AABFB /* Pods-DopplerGesturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DopplerGesturesTests.debug.xcconfig"; path = "Target Support Files/Pods-DopplerGesturesTests/Pods-DopplerGesturesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C501C94F29DD61A67416FAF8 /* Pods_DopplerGestures.framework in Frameworks */,
+				3172855E047D427074C5A2E7 /* Pods_DopplerGestures.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88EE0B28DD34FEBB83B4977 /* Pods_DopplerGesturesTests.framework in Frameworks */,
+				AE00DE9B12E8C9BB690224B3 /* Pods_DopplerGesturesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A71531706291E02F01E582E /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */,
+				8AE37AFDA7C7BEC29D2E5BE9 /* Pods_DopplerGestures_DopplerGesturesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,9 +171,11 @@
 		78AB47066DAF74185731A82B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0996DDD4244D1EBF00BC85C9 /* Charts.framework */,
+				0996DDCD244D1DB900BC85C9 /* Charts.framework */,
 				C541F600A57F65CFD6359FD4 /* Pods_DopplerGestures.framework */,
-				7C8B2707E1CE13797132327F /* Pods_DopplerGestures_DopplerGesturesUITests.framework */,
-				8680F6C2A7E817F30356BCE1 /* Pods_DopplerGesturesTests.framework */,
+				9F11A3D0E0C9079F3A1B4D4A /* Pods_DopplerGestures_DopplerGesturesUITests.framework */,
+				50104196153E40A101623F4B /* Pods_DopplerGesturesTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 				09036A5524453118002E4D3D /* Sources */,
 				09036A5624453118002E4D3D /* Frameworks */,
 				09036A5724453118002E4D3D /* Resources */,
+				411757A23B1BAC60B690B7DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +229,7 @@
 				09036A762445311D002E4D3D /* Sources */,
 				09036A772445311D002E4D3D /* Frameworks */,
 				09036A782445311D002E4D3D /* Resources */,
+				4681EA06DC505F4F6CE9565F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +312,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		411757A23B1BAC60B690B7DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures/Pods-DopplerGestures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4681EA06DC505F4F6CE9565F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DopplerGestures-DopplerGesturesUITests/Pods-DopplerGestures-DopplerGesturesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		558DCBD2EC21E60FA0EAE0EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,7 +581,7 @@
 				DEVELOPMENT_TEAM = S69EHXYN33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DopplerGestures/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +615,7 @@
 				DEVELOPMENT_TEAM = S69EHXYN33;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DopplerGestures/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

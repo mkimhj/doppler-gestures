@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dW0-8v-67z">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,29 +12,41 @@
             <objects>
                 <viewController id="dW0-8v-67z" customClass="ViewController" customModule="DopplerGestures" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oUV-8P-B0B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frequency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDK-pX-yxR">
-                                <rect key="frame" x="99" y="325" width="81" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIF-bT-be0">
-                                <rect key="frame" x="227" y="325" width="167" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFD-aH-8ov" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="8" y="52" width="359" height="216"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIF-bT-be0">
+                                <rect key="frame" x="8" y="631.33333333333337" width="359" height="26.666666666666629"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="0">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="24"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gFD-aH-8ov" firstAttribute="leading" secondItem="kEW-t2-mBp" secondAttribute="leading" constant="8" id="Igp-HH-E43"/>
+                            <constraint firstItem="gFD-aH-8ov" firstAttribute="top" secondItem="kEW-t2-mBp" secondAttribute="top" constant="8" id="jdH-cF-iv6"/>
+                            <constraint firstAttribute="trailing" secondItem="sIF-bT-be0" secondAttribute="trailing" constant="8" id="nBM-cS-p5v"/>
+                            <constraint firstItem="gFD-aH-8ov" firstAttribute="centerX" secondItem="oUV-8P-B0B" secondAttribute="centerX" id="qgq-3g-GOB"/>
+                            <constraint firstAttribute="bottom" secondItem="gFD-aH-8ov" secondAttribute="bottom" constant="544" id="t1Q-6M-tpF"/>
+                            <constraint firstItem="kEW-t2-mBp" firstAttribute="bottom" secondItem="sIF-bT-be0" secondAttribute="bottom" constant="120" id="y2O-xD-edv"/>
+                            <constraint firstItem="sIF-bT-be0" firstAttribute="leading" secondItem="oUV-8P-B0B" secondAttribute="leading" constant="8" id="yyq-xZ-SAe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kEW-t2-mBp"/>
                     </view>
                     <connections>
                         <outlet property="frequencyLabel" destination="sIF-bT-be0" id="D8K-WS-qRF"/>
+                        <outlet property="frequencyPlotView" destination="gFD-aH-8ov" id="1Bp-AQ-pTs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HhN-0G-ZlD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
